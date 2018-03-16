@@ -77,7 +77,7 @@ func Provider() terraform.ResourceProvider {
 			"triton_machine":       resourceMachine(),
 			"triton_snapshot":      resourceSnapshot(),
 			"triton_vlan":          resourceVLAN(),
-			"triton_volumes":       resourceVolume(),
+			"triton_volume":        resourceVolume(),
 		},
 		ConfigureFunc: providerConfigure,
 	}
